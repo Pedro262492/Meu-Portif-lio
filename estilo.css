@@ -1,0 +1,150 @@
+body{
+   
+    font-family: sans-serif;
+    background-image: url(WhatsApp\ Image\ 2025-09-02\ at\ 21.34.44.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+#retangulo{
+    width: 500px;
+    height: 400px;
+    background-color: gray;
+    margin-top: 20px;
+    z-index: 1;
+    
+}
+.visivel{
+    display: block;
+}
+.invisivel{
+    display: none;
+}
+#barra{
+    width: 495px;
+    height: 40px;
+    background-color: blue;
+    margin-top: 20px;
+    z-index: 2;
+    position: relative; bottom: 418px; left: 2px;
+   text-align: left;
+}
+
+#fechar{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-top: 20px;
+    z-index: 3;
+    position: relative; bottom: 470px; left: 470px;
+    text-align: center;
+    cursor: pointer;
+   
+}
+
+#botoes{
+    position: relative; top: 50px; left: 70px;
+    z-index: 3;
+}
+
+#area{
+    position: relative; bottom: 380px; left: 130px;
+    z-index: 3;
+
+}
+
+#area2{
+    position: relative; bottom: 380px; left: 13px;
+    z-index: 3;
+    max-width: 500px;
+    line-height: 1.5;
+}
+
+#area4{
+    position: relative; bottom: 380px; left: 13px;
+    z-index: 3;
+        max-width: 480px;
+    line-height: 1.5;
+}
+
+#area3{
+    position: relative; bottom: 380px; left: 13px;
+    z-index: 3;
+}
+
+#area5{
+    position: relative; bottom: 380px; left: 130px;
+    z-index: 3;
+
+}
+
+
+#web{
+    position: relative;
+    height: 50px;
+    width: 60px;
+    cursor: pointer;
+    left: 35px;
+}
+
+
+
+@media(max-width:768px){
+
+#retangulo{
+   width: 95%;
+   margin-bottom: 10px;
+}
+
+
+.visivel{
+   width: 95%;
+   margin-bottom: 10px;
+}
+
+.invisivel{
+   width: 95%;
+   margin-bottom: 10px;
+}
+
+#barra{
+   width: 95%;
+   margin-bottom: 10px;
+}
+
+#botoes{
+   width: 95%;
+   margin-bottom: 10px;
+}
+
+#area2{
+   width: 95%;
+   margin-bottom: 10px;
+}
+
+#area4{
+   width: 95%;
+   margin-bottom: 10px;
+}
+
+#area3{
+   width: 95%;
+   margin-bottom: 10px;
+}
+
+#web{
+   width: 95%;
+   margin-bottom: 10px;
+}
+
+#fundo{
+   width: 95%;
+   margin-bottom: 10px;
+}
+
+}
+
+#webe{
+    position: relative;
+    left: 20px;
+}
