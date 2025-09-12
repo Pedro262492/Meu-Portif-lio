@@ -8,6 +8,24 @@ body{
     overflow: hidden;
 }
 
+h2{
+    opacity: 0%;
+}
+
+#eu{
+    position: relative;
+    width: 230px;
+    height: 200px;
+    bottom: 20px;
+    right: 7px;
+}
+
+#nome{
+    position: relative;
+    bottom: 30px;
+    left: 17px;
+}
+
 #retangulo{
     width: 500px;
     height: 400px;
@@ -75,7 +93,9 @@ body{
 }
 
 #area5{
-    position: relative; bottom: 380px; left: 130px;
+    position: relative; bottom: 380px; left: 180px;
+ line-height: 1.5;
+ font-size: 20px;
     z-index: 3;
 
 }
@@ -140,7 +160,8 @@ body{
 }
 
 #fundo{
-   width: 95%;
+    height: 100%;
+   width: 100%;
    margin-bottom: 10px;
 }
 
