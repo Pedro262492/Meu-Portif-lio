@@ -115,7 +115,7 @@ h2{
 
 #retangulo{
    width: 90%;
-   
+    margin-bottom: 10px;
 }
 
 
@@ -131,7 +131,7 @@ h2{
 
 #barra{
    width: 89%;
-  
+   margin-bottom: 10px;
 }
 
 #fechar{
@@ -212,7 +212,8 @@ h2{
 
 body{
     position: relative;
- overflow: hidden;
+ overflow-x: hidden;
+ overflow-y: hidden;
  height: 100%;
  width: 120%;
 }
