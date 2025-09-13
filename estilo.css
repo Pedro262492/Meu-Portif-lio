@@ -114,8 +114,8 @@ h2{
 @media(max-width:768px){
 
 #retangulo{
-   width: 52%;
-   margin-bottom: 10px;
+   width: 90%;
+   
 }
 
 
@@ -130,17 +130,17 @@ h2{
 }
 
 #barra{
-   width: 51%;
-   margin-bottom: 10px;
+   width: 89%;
+  
 }
 
 #fechar{
-    left: 290px;
+    left: 310px;
 }
 
 #botoes{
     position: relative;
-  left: 5px;
+  left: 10px;
  width: 600px;
  height: 500px;
 }
@@ -212,8 +212,9 @@ h2{
 
 body{
     position: relative;
- 
-  background-size: cover;
+ overflow: hidden;
+ height: 100%;
+ width: 120%;
 }
 
 }
