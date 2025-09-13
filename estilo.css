@@ -114,7 +114,7 @@ h2{
 @media(max-width:768px){
 
 #retangulo{
-   width: 90%;
+   width: 360px;
     margin-bottom: 10px;
 }
 
@@ -130,7 +130,7 @@ h2{
 }
 
 #barra{
-   width: 89%;
+   width: 357px;
    margin-bottom: 10px;
 }
 
@@ -140,7 +140,7 @@ h2{
 
 #botoes{
     position: relative;
-  left: 10px;
+  left: 20px;
  width: 600px;
  height: 500px;
 }
@@ -185,14 +185,14 @@ h2{
     position: relative;
    
    margin-bottom: 10px;
-   left: 40px;
+   left:57px;
    line-height: 1.5;
     max-width: 250px;
 }
 
 #nome{
     position: relative;
-    left: 40px;
+    left: 30px;
 }
 
 #bv{
