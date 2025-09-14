@@ -26,7 +26,8 @@ h2{
     left: 17px;
 }
 
-#retangulo{
+#retangulo{ 
+   
     width: 500px;
     height: 400px;
     background-color: gray;
@@ -34,6 +35,16 @@ h2{
     z-index: 1;
     
 }
+
+#retangulo2{
+    position: fixed;
+    opacity: 0%;
+    width: 500px;
+    height: 400px;
+    background-color: gray;
+    margin-top: 20px;
+    z-index: -3;}
+
 .visivel{
     display: block;
 }
@@ -114,6 +125,12 @@ h2{
 @media(max-width:768px){
 
 #retangulo{
+   width: 360px;
+    margin-bottom: 10px;
+}
+
+#retangulo2{
+    opacity: 0%;
    width: 360px;
     margin-bottom: 10px;
 }
