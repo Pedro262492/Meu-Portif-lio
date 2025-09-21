@@ -8,6 +8,201 @@ body{
     overflow: hidden;
 }
 
+#celular{
+    position: relative;
+    bottom: 182px;
+}
+
+#telaverde{
+position: relative;
+background-color: rgb(63, 107, 117);
+bottom: 673px;
+right: 20px;
+width: 1015px;
+height: 2000px;
+z-index: 4;
+display: none;
+overflow: hidden;
+}
+
+#mokia{
+    z-index: 10;
+    background-color: black;
+    bottom: 150px;
+    left: 345px;
+    position: relative;
+    color: white;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+   width: 270px;
+
+}
+
+#tela{
+    position: relative;
+    width: 700px;
+    height: 600px;
+    background:  linear-gradient(
+        to top, #093300, rgb(62, 170, 0));
+    z-index: 7;
+   bottom: 2100px;
+   left: 140px;
+   border-radius: 10%;
+   box-shadow: 0px 0px 40px black;
+}
+
+#borda{
+    position: relative;
+    width: 800px;
+    height: 1400px;
+    background-color: transparent;
+    z-index: 5;
+    display: none;
+    left: 40px;
+    bottom: 3250px;
+    border: 50px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+  border-bottom: 200px solid rgb(255, 255, 255); /* ajuste a cor e a espessura como quiser */
+  box-shadow: 0px 50px 40px rgba(0,0,0,0.3); /* deslocamento-x, deslocamento-y, blur, cor */
+
+}
+
+#botoes-celular{
+    
+    position: relative;
+    top: 300px;
+    left: 320px;
+    z-index: 12;
+    width: 200px;
+    height: 0px;
+   
+}
+
+#ec{
+    position: relative;
+    rotate: 55deg;
+    font-size: 80px;
+
+    left: 30px;
+bottom: 40px;
+}
+
+#c{
+    color: black;
+    position: relative;
+    height: 150px;
+    width: 100px;
+    background: rgb(255, 255, 255);
+    border: black solid 5px;
+    left: 190px;
+    top: 1100px;
+    z-index: 13;
+    border-bottom-left-radius: 50%;
+     border-bottom-right-radius: 20%;
+      border-top-right-radius: 20%;
+       border-top-left-radius: 20%;
+       rotate: -36deg;
+       
+      transform: skewx(20deg);
+       transform: skewy(-40deg);
+}
+
+#somim{
+    position: relative;
+    height: 80px;
+    width: 320px;
+    font-size: 50px;
+    background: transparent;
+    border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#progr{
+   position: relative;
+    height: 80px;
+    width: 320px;
+    font-size: 48px;
+    background: transparent;
+    border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#proje{
+     position: relative;
+    height: 80px;
+    width: 320px;
+    font-size: 50px;
+    background: transparent;
+    border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cont{
+     position: relative;
+    height: 80px;
+    width: 320px;
+    font-size: 50px;
+    background: transparent;
+    border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#botaonokia{
+    position: relative;
+    width: 550px;
+    height: 300px;
+    z-index: 12;
+    background-color: rgb(255, 255, 255);
+    bottom: 3630px;
+    left: 210px;
+    border-radius: 90%;
+}
+
+#tudo{
+
+
+}
+
+.zoomex1{
+    height: 50%;
+    width: 50%;
+}
+
+.zoomex2{
+    height: 70%;
+    width: 70%;
+}
+
+.zoomex3{
+    height: 90%;
+    width: 90%;
+}
+
+.zoomex4{
+    position:absolute;
+height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+
+.zoom1{
+    zoom: 40%;
+}
+
+.zoom2{
+    zoom: 70%;
+}
+
+.zoom3{
+    zoom: 100%;
+}
+
+
 h2{
     opacity: 0%;
 }
@@ -43,7 +238,8 @@ h2{
     height: 400px;
     background-color: gray;
     margin-top: 20px;
-    z-index: -3;}
+    z-index: -3;
+}
 
 .visivel{
     display: block;
@@ -58,7 +254,10 @@ h2{
     margin-top: 20px;
     z-index: 2;
     position: relative; bottom: 418px; left: 2px;
-   text-align: left;
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 0;
 }
 
 #fechar{
@@ -73,9 +272,28 @@ h2{
    
 }
 
+
+
 #botoes{
     position: relative; top: 50px; left: 70px;
     z-index: 3;
+    cursor: pointer;
+}
+
+#pro{
+    cursor: pointer;
+}
+
+#co{
+    cursor: pointer;
+}
+
+#pr{
+    cursor: pointer;
+}
+
+#sm{
+    cursor: pointer;
 }
 
 #area{
@@ -228,10 +446,20 @@ h2{
 }
 
 body{
-   
-background-size: cover;
- overflow: hidden;
+    position: relative;
+   background-size: cover;
+   height: 95%;
+width: 93%;
  
+}
+
+#telaverde{
+    display: block;
+    overflow: hidden;
+}
+
+#borda{
+    display: block;
 }
 
 }
