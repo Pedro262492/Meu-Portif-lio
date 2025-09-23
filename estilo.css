@@ -6,11 +6,93 @@ body{
     height: 100%;
     width: 100%;
     overflow: hidden;
+    background-color: solid black;
 }
 
 #celular{
     position: relative;
     bottom: 182px;
+    display: none;
+}
+
+#tela2{
+   position: relative;
+    width: 260px;
+    height: 300px;
+   text-align: center;
+    z-index: 13;
+   bottom: 1930px;
+   left: 65px;
+   border-radius: 10%;
+   font-size: 20px;
+   color: black;
+
+}
+
+#tela4{
+   position: relative;
+    width: 273px;
+    height: 310px;
+   text-align: center;
+    z-index: 13;
+   bottom: 1943px;
+   left: 59px;
+   border-radius: 10%;
+   font-size: 20px;
+   color: black;
+
+}
+
+#tela5{
+   position: relative;
+    width: 273px;
+    height: 310px;
+   text-align: center;
+    z-index: 13;
+   bottom: 1895px;
+   left: 59px;
+   border-radius: 10%;
+   font-size: 20px;
+   color: black;
+}
+
+#tela3{
+    line-width: 1.5;
+   position: relative;
+    width: 273px;
+    height: 310px;
+   text-align: center;
+    z-index: 13;
+   bottom: 1943px;
+   left: 59px;
+   border-radius: 10%;
+   font-size: 20px;
+   color: black;
+}
+
+#con1{
+   text-decoration: none solid black;
+    color: black;
+}
+
+#con2{
+   text-decoration: none solid black;
+    color: black;
+}
+
+#con3{
+   text-decoration: none solid black;
+    color: black;
+}
+
+#s1{
+   
+    color: black;
+}
+
+#s2{
+   
+    color: black;
 }
 
 #telaverde{
@@ -34,7 +116,8 @@ overflow: hidden;
     color: white;
     font-size: 80px;
     font-family: Arial, Helvetica, sans-serif;
-   width: 270px;
+   width: 272px;
+   text-align: center;
 
 }
 
@@ -158,6 +241,7 @@ bottom: 40px;
     bottom: 3630px;
     left: 210px;
     border-radius: 90%;
+   
 }
 
 #tudo{
@@ -450,18 +534,21 @@ body{
    background-size: cover;
    height: 95%;
 width: 93%;
- 
+zoom: 100%;
+background-image: none;
+background-color: solid black;
 }
 
+#celular{
+    display: block
+}
 #telaverde{
     display: block;
-    overflow: hidden;
 }
 
 #borda{
     display: block;
 }
-
 }
 
 #webe{

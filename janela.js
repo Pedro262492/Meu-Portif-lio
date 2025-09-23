@@ -182,4 +182,99 @@ document.getElementById("musica").play();
       area1.classList.add("invisivel");
     }
    
-    
+     function somim (){
+
+const tela2 = document.getElementById("tela2");
+ tela2.classList.remove("invisivel");
+      tela2.classList.add("visivel");
+
+      const tela4 = document.getElementById("tela4");
+ tela4.classList.remove("visivel");
+      tela4.classList.add("invisivel");
+
+       const botoescelular = document.getElementById("botoes-celular");
+ botoescelular.classList.remove("visivel");
+     botoescelular.classList.add("invisivel");
+    }
+
+    function progr (){
+
+const tela4 = document.getElementById("tela4");
+ tela4.classList.remove("invisivel");
+      tela4.classList.add("visivel");
+
+      const tela2 = document.getElementById("tela2");
+ tela2.classList.remove("visivel");
+      tela2.classList.add("invisivel");
+
+       const botoescelular = document.getElementById("botoes-celular");
+ botoescelular.classList.remove("visivel");
+     botoescelular.classList.add("invisivel");
+    }
+
+     function proje (){
+
+const tela3 = document.getElementById("tela3");
+ tela3.classList.remove("invisivel");
+      tela3.classList.add("visivel");
+
+      const tela2 = document.getElementById("tela2");
+ tela2.classList.remove("visivel");
+      tela2.classList.add("invisivel");
+
+  const tela4 = document.getElementById("tela4");
+ tela4.classList.remove("visivel");
+      tela4.classList.add("invisivel");
+
+
+       const botoescelular = document.getElementById("botoes-celular");
+ botoescelular.classList.remove("visivel");
+     botoescelular.classList.add("invisivel");
+    }
+
+     function cont (){
+
+      const tela5 = document.getElementById("tela5");
+ tela5.classList.remove("invisivel");
+      tela5.classList.add("visivel");
+
+const tela3 = document.getElementById("tela3");
+ tela3.classList.remove("visivel");
+      tela3.classList.add("invisivel");
+
+      const tela2 = document.getElementById("tela2");
+ tela2.classList.remove("visivel");
+      tela2.classList.add("invisivel");
+
+  const tela4 = document.getElementById("tela4");
+ tela4.classList.remove("visivel");
+      tela4.classList.add("invisivel");
+
+
+       const botoescelular = document.getElementById("botoes-celular");
+ botoescelular.classList.remove("visivel");
+     botoescelular.classList.add("invisivel");
+    }
+
+     function cclear (){
+
+     const tela5 = document.getElementById("tela5");
+ tela5.classList.remove("visivel");
+      tela5.classList.add("invisivel");
+
+const tela2 = document.getElementById("tela2");
+ tela2.classList.remove("visivel");
+      tela2.classList.add("invisivel");
+
+      const tela4 = document.getElementById("tela4");
+ tela4.classList.remove("visivel");
+      tela4.classList.add("invisivel");
+
+        const tela3 = document.getElementById("tela3");
+ tela3.classList.remove("visivel");
+      tela3.classList.add("invisivel");
+
+      const botoescelular = document.getElementById("botoes-celular");
+ botoescelular.classList.remove("invisivel");
+     botoescelular.classList.add("visivel");
+    }
