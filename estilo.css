@@ -21,7 +21,7 @@ body{
     height: 300px;
    text-align: center;
     z-index: 13;
-   bottom: 1930px;
+   bottom: 1948px;
    left: 65px;
    border-radius: 10%;
    font-size: 20px;
@@ -429,18 +429,21 @@ h2{
 #retangulo{
    width: 360px;
     margin-bottom: 10px;
+    display: none;
 }
 
 #retangulo2{
     opacity: 0%;
    width: 360px;
     margin-bottom: 10px;
+     display: none;
 }
 
 
 .visivel{
    width: 95%;
    margin-bottom: 10px;
+   
 }
 
 .invisivel{
@@ -450,16 +453,19 @@ h2{
 
 #barra{
    width: 357px;
-   margin-bottom: 10px;
+   margin-bottom: 10px; 
+   display: none;
 }
 
 #fechar{
     left: 310px;
+     display: none;
 }
 
 #botoes{
     position: relative;
   left: 20px;
+   display: none;
  width: 600px;
  height: 500px;
 }
@@ -471,6 +477,7 @@ h2{
    left: 55px;
    line-height: 1.5;
     max-width: 250px;
+     display: none;
 }
 
 #area4{
@@ -480,11 +487,13 @@ h2{
    left: 55px;
    line-height: 1.5;
     max-width: 250px;
+     display: none;
 }
 
 #area3{
     position: relative;
    text-align: center;
+    display: none;
    margin-bottom: 10px;
    left: 55px;
    line-height: 1.5;
@@ -493,6 +502,7 @@ h2{
 
 #area5{
     position: relative;
+     display: none;
    text-align: center;
    margin-bottom: 10px;
     left: 55px;
@@ -502,7 +512,7 @@ h2{
 
 #area{
     position: relative;
-   
+    display: none;
    margin-bottom: 10px;
    left:57px;
    line-height: 1.5;
@@ -512,6 +522,7 @@ h2{
 #nome{
     position: relative;
     left: 30px;
+     display: none;
 }
 
 #bv{
@@ -522,9 +533,11 @@ h2{
 #eu{
     position: relative;
     left: 10px;
+     display: none;
 }
 
 #web{
+     display: none;
    
    margin-bottom: 10px;
 }
