@@ -407,16 +407,7 @@ transition: 2s;
 }
 
 
- /* .doom:hover{
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    transition: 2s;
-    border: 5px solid #840096;
-     border-bottom: 50px solid #840096;
-     animation-name: flutuando;
-    animation-duration: 2s;
-animation-iteration-count: infinite;
-} */
+
 
 @keyframes flutuando{
 
@@ -564,13 +555,19 @@ a{
 
 @media(max-width:768px){
 
-body{
-
-    overflow-x: hidden;
-    place-items: center;
-    background-attachment: fixed;
+*{
+    outline: 1px solid red;
 }
 
+body{
+  
+
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    align-items: center;
+    background-attachment: fixed;
+}
 
 
 .bemvindo{
@@ -582,7 +579,7 @@ body{
       position: fixed;
    top: 0;
    left: 0;
-   width: 70vh;
+   width: 60vh;
    height: 20px;
    background: rgb(0, 0, 0);
    color: white;
@@ -648,7 +645,7 @@ body{
 
 h2{
     position: relative;
-     right: 50px;
+     right: 80px;
     color: white;
 }
 
@@ -659,7 +656,7 @@ h2{
 
 .card-frente{
      position: relative;
-    right: 32px;
+    right: 60px;
   height: 90px;
 width: 280px;
 font-size: 13px;
@@ -667,35 +664,68 @@ font-size: 13px;
 
 .card-2{
      position: relative;
-    left: -35px;
+    left: -58px;
     top: 290px;
   height: 107px;
 width: 270px;
 font-size: 13px;
 }
 
-.site2{
+.gerenciador{
        position: relative;
-  right: 445px;
-
-  height: 20px;
-width: 50px;
+  right: 10px;
+bottom: 160px;
+ height: 150px;
+width: 150px;
 
 }
 
 .site1{
+    position: relative;
+    top: 120px;
+    right: 40px;
+}
+
+.site2{
+    position: relative;
+    top: 200px;
+    right: 390px;
+}
+
+.doom{
        position: relative;
- left: 345px;
-  top: 110px;
+ left: 50px;
+  bottom: 10px;
 
-  height: 20px;
-width: 50px;
+  height: 150px;
+width: 150px;
 
+}
+
+@keyframes flutuando{
+
+0%{
+    top: 80px;
+}
+
+50%{
+    top: 10px;
+}
+
+100%{
+    top: 80px;
+}
+
+}
+
+.conn{
+    position: relative;
+    left: 30px;
 }
 
 .whats{
     position: relative;
-    right: 340px;
+    right: 320px;
     transition: 2s;
 }
 
@@ -706,7 +736,7 @@ width: 50px;
 
 .instagram{
     position: relative;
-    right: 340px;
+    right: 320px;
     transition: 2s;
 }
 
@@ -717,7 +747,7 @@ width: 50px;
 
 .tiktok{
     position: relative;
-    right: 340px;
+    right: 320px;
     transition: 2s;
 }
 
