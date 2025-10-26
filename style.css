@@ -555,9 +555,7 @@ a{
 
 @media(max-width:768px){
 
-*{
-    outline: 1px solid red;
-}
+
 
 body{
   
@@ -645,7 +643,7 @@ body{
 
 h2{
     position: relative;
-     right: 80px;
+     right: 40px;
     color: white;
 }
 
@@ -656,7 +654,7 @@ h2{
 
 .card-frente{
      position: relative;
-    right: 60px;
+    right: 20px;
   height: 90px;
 width: 280px;
 font-size: 13px;
@@ -664,7 +662,7 @@ font-size: 13px;
 
 .card-2{
      position: relative;
-    left: -58px;
+    left: -17px;
     top: 290px;
   height: 107px;
 width: 270px;
@@ -689,12 +687,12 @@ width: 150px;
 .site2{
     position: relative;
     top: 200px;
-    right: 390px;
+    right: 360px;
 }
 
 .doom{
        position: relative;
- left: 50px;
+ left: 90px;
   bottom: 10px;
 
   height: 150px;
@@ -720,7 +718,7 @@ width: 150px;
 
 .conn{
     position: relative;
-    left: 30px;
+    left: 60px;
 }
 
 .whats{
