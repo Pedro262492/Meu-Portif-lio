@@ -7,6 +7,7 @@ body{
     background-attachment: fixed;
 }
 
+
 html{
     scroll-behavior: smooth;
 }
@@ -284,7 +285,7 @@ animation-iteration-count: infinite;
 }
 
 .card-frente{
-height: 115px;
+height: 175px;
 width: 360px;
 opacity: 50%;
 border: 5px solid purple;
@@ -314,7 +315,7 @@ margin: 0;
 }
 
 .card-2{
-height: 115px;
+height: 175px;
 width: 360px;
 opacity: 50%;
 
@@ -655,7 +656,7 @@ h2{
 .card-frente{
      position: relative;
     right: 20px;
-  height: 90px;
+  height: 140px;
 width: 280px;
 font-size: 13px;
 }
@@ -664,9 +665,16 @@ font-size: 13px;
      position: relative;
     left: -17px;
     top: 290px;
-  height: 107px;
+  height: 140px;
 width: 270px;
 font-size: 13px;
+}
+
+.card-2:hover{
+   
+ 
+    top: 350px;
+  
 }
 
 .gerenciador{
