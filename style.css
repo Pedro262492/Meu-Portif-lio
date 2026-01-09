@@ -1,6 +1,7 @@
 body{
    margin: 0;
     background: linear-gradient(to top right, black, rgb(0, 0, 0), rgb(255, 2, 255));
+    width: 100%;
     height: 100vh;
     overflow-x: hidden;
     place-items: center;
@@ -12,755 +13,290 @@ html{
     scroll-behavior: smooth;
 }
 
-
-h2{
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+.ft_eu{
+    width: 15%;
+    height: 25%;
+    border-radius: 50%;
+    margin-left: 15%;
 }
 
-.conn{
-   position: relative;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    left: 90px;
+.nav_bar a{
+    text-decoration: none;
 }
 
-.barra{
-   position: fixed;
-   top: 0;
-   right: 0;
-   width: 100%;
-   height: 20px;
-   background: rgb(0, 0, 0);
-   color: white;
-   padding: 10px;
-   z-index: 1999;
+.nav_bar p:hover{
+    color: rgb(54, 0, 54);
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+
+
+.conteudo_2{
+    background: rgb(39, 0, 39);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .conteudo{
-   text-decoration: none;
-    width: 500px;
-    margin-top: 30px;
-    color: white;
-}
-
-#navcon{
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(43, 0, 43);
     position: relative;
-    left: 1200px;
-    bottom: 30px;
-   
-}
-
-#navpro{
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    left: 1000px;
- bottom: 30px;
-}
-
-#navmim{
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    left: 780px;
-    bottom: 30px;
-}
-
-#navme{
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    left: 560px;
-    bottom: 30px;
-}
-
-.zap{
-    position: relative;
-    top: 3px;
-    width: 35px;
-    height: 35px;
-     opacity: 20%;
-      transition: 2s;
-}
-
-.insta{
-    position: relative;
-    width: 30px;
-    height: 30px;
-    left: 30px;
-     opacity: 20%;
-      transition: 2s;
-}
-
-.tik{
-    position: relative;
-   width: 30px;
-    height: 30px;
-    left: 60px;
- opacity: 20%;
-  transition: 2s;
-}
-
-.redes{
-    position: relative;
-    top: 50px;
-    left: 50px;
-    cursor: pointer;
-}
-
-.zap:hover{
-    opacity: 100%;
-   
-}
-
-.tik:hover{
-    opacity: 100%;
-   
-}
-
-.insta:hover{
-    opacity: 100%;
-   
-}
-
-
-
-
-.bemvindo{
-    position: relative;
-    
-    background-color: transparent;
     width: 100%;
-    height: 700px;
-
+    height: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-#nome:after{
-    z-index: 10;
-    position: relative;
-    top: 20px;
-    left: 50px;
-    content: "";
-    font-weight: 600;
-    font-size: 40px;
+h3{
+        
+
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    animation-name: nome;
-    animation-duration: 5s;
-animation-iteration-count: infinite;
-
-}
-
-#ola{
-    position: relative;
-    left: 50px;
-    color: white;
-    z-index: 9;
-    font-size: 20px;
-}
-
-@keyframes nome{
-    0%{ content: "F";}
-2%{ content: "Fr";}
-4%{ content: "Fro";}
-    6% { content: "Fron";}
-    8% { content: "Front";}
-    10% { content: "Front-";}
-    12%{ content: "Front-e";}
-    14% { content: "Front-en";}
-    16%{ content: "Front-end";}
-    18% { content: "Front-en";}
-    20% { content: "Front-e";}
-     22% { content: "Front-";}
-      24% { content: "Front";}
-       26% { content: "Fron";}
-        38% { content: "Fro";}
-         40% { content: "Fr";}
-          42% { content: "F";}
-             44% { content: "F";}
-                46% { content: "W";}
-                 48% { content: "We";}
-                   50% { content: "Web";}
-                     52% { content: "Web-";}
-                       54% { content: "Web-d";}
-                         56% { content: "Web-de";}
-                           58% { content: "Web-des";}
-                             60% { content: "Web-desi";}
-                               62% { content: "Web-desig";}
-                                 64% { content: "Web-design";}
-                                   66% { content: "Web-designe";}
-                                     68% { content: "Web-designer";}
-                                      70% { content: "Web-designe";}
-                                       72% { content: "Web-design";}
-                                        74% { content: "Web-desig";}
-                                         76% { content: "Web-desi";}
-                                          78% { content: "Web-des";}
-                                           80% { content: "Web-de";}
-                                            82% { content: "Web-d";}
-                                             84% { content: "Web-";}
-                                              86% { content: "Web";}
-                                               88% { content: "We";}
-                                                 90% { content: "W";}
- 100% { content: "W";}
-
-}
-
-
-
-.container {
-    perspective: 1000px;
-    perspective-origin: 100% 100%;
-}
-
-.cube{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    transform-style: preserve-3d;
-    animation: rotate 6s linear infinite;
-    left: 900px;
-    top: 150px;
+    font-family:monospace
     
 }
 
-.cube > div {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    opacity: 0.9;
-    text-align: center;
-    background: linear-gradient(to
-     right, #ff82ff, #840096);
+
+
+h4{
+    color: white;
+        font-family:monospace
+
 }
 
-
-.s1{
-    transform: translateZ(100px);
+.nav_bar{
+    position: fixed;
+    width: 100%;
+    height: 4%;
+     font-family:monospace;
+    top: 0vh;
+    background: white;
+    z-index: 99;
+    color: purple;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10%;
 }
 
-.s2{
-    transform:rotate(90deg) translateZ(100px);
-}
-
-.s3{
-    transform:rotateY(180deg) translateZ(100px);
-}
-
-.s4{
-    transform:rotateX(90deg) translateZ(100px);
-}
-
-.s5{
-    transform:rotateY(-90deg) translateZ(100px);
-}
-
-.s6{
-    transform:rotateX(-90deg) translateZ(100px) rotate(180deg);
-}
-
-
-@keyframes rotate {
-    100%{
-        transform: rotateX(0deg) rotateY(360deg) rotateZ(360deg);
-    }
-}
-
-.sobrem{
-    height: 200px;
-}
-
-.card{
+.ft_projetos{
     position: relative;
-    bottom: 8rem;
-    width: 18rem;
-    cursor: pointer;
-}
-
-.card-frente{
-height: 175px;
-width: 360px;
-opacity: 50%;
-border: 5px solid purple;
-border-top:transparent;
-border-left:transparent;
-border-right:transparent;
-
-text-align: center;
-position: absolute;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-padding: 4px;
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-top: 250px;
-right: 400px;
-margin: 0;
- transition: 2s;
-}
-
-.card-frente:hover{
-  
-    height: 200px;
-    top: 200px;
-    opacity: 100%;
-}
-
-.card-2{
-height: 175px;
-width: 360px;
-opacity: 50%;
-
-border: 5px solid purple;
-border-top:transparent;
-border-left:transparent;
-border-right:transparent;
-
-position: absolute;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-padding: 4px;
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-top: 250px;
-left: 400px;
-text-align: center;
-margin: 0;
- transition: 2s;
-}
-.card-2:hover{
-   
-    height: 200px;
-    top: 200px;
-    opacity: 100%;
+    width: 100%;
+    height: 70%;
+   cursor: pointer;
 }
 
 .projetos{
     position: relative;
-    top: 800px;
+    width: 50%;
+    height: 50%;
+     background: rgb(34, 0, 34);
+     margin: 2%;
+       font-family: monospace;
+
+}
+
+.projetos p {
+    padding: 1%;
+    color: white;
+}
+
+.skills{
+    width: 100%;
+    height: 100%;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 8%;
+}
+
+.ft_skill{
+    width: 7%;
+    height: 14%;
    
+    margin: 2%;
 }
 
-.site1{
-    width: 320px;
-    height: 260px;
-    background: transparent;
-   
+.container_skill{
+    width: 18%;
+    height: 16%;
+    background: rgb(34, 0, 34);
+    color: white;
+    font-family: monospace;
 }
 
-.site2{
+.container_skill p {
+    margin-left: 2%;
+}
+
+
+
+.conteudo h5{
+    position: absolute;
+    top: 0;
+    color: white;
+font-family: monospace;
+padding-top: 5%;
+font-size: 100%;
+}
+
+.conteudo_2 h5{
+    position: absolute;
+    top: 0;
+    color: white;
+font-family: monospace;
+padding-top: 5%;
+font-size: 100%;
+}
+
+.conteudo_contato{
+    width: 50%;
+    
+    height: 10%;
+    border: 1px solid white;
+      color: white;
+      font-family: monospace;
+}
+
+.conteudo_contato img{
     position: relative;
-    width: 320px;
-    height: 260px;
-    background: transparent;
-   bottom: 270px;
+    width: 12%;
+    height: 35%;
+    margin: 40%;
+   cursor: pointer;
 }
 
-.doom{
-    position: relative;
-    width: 300px;
-    height: 300px;
-   bottom: 60px;
-   right: 400px;
- animation-name: flutuando;
-    animation-duration: 2s;
-animation-iteration-count: infinite;
-   background: transparent ;
-border: 5px transparent;
-border-radius: 20px;
-transition: 2s;
-}
 
-.doom:hover{
+
+.conteudo_contato p{
+    position: absolute;
  
-  width: 320px;
-    height: 320px;
+    top: 37%;
+   color: white;
+   font-family: monospace;
 }
 
-.gerenciador{
-    position: relative;
-    width: 310px;
-    height: 330px;
-   bottom: 60px;
-   left: 400px;
-   z-index: 100;
- animation-name: flutuando;
-    animation-duration: 2s;
-animation-iteration-count: infinite;
-  
-
-transition: 2s;
+.contatos{
+    width: 100%;
+    height: 100%;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-.gerenciador:hover{
- 
-  width: 330px;
-    height: 350px;
+.card_experiencia{
+    margin-top: 5%;
+    height: 28%;
+    width: 100%;
+    background: rgb(36, 0, 36);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(54, 0, 54);
+    font-family: monospace;
 }
 
-
-
-
-@keyframes flutuando{
-
-0%{
-    top: 40px;
+.card_experiencia p{
+    margin-left: 1%;
 }
 
-50%{
-    top: 10px;
-}
-
-100%{
-    top: 40px;
-}
-
-}
-
-.contato{
-    position: relative;
-    top: 1300px;
-    width: 100px;
-    height: 100px;
-   
-}
-
-.whats{
-    position: relative;
-    height: 40px;
-    width: 300px;
-    right: 760px;
-    border-top-right-radius: 20px;
-     border-bottom-right-radius: 20px;
-    background: linear-gradient(to
-     right, #840096 , #ff82ff);
-     transition: 2s;
-     color:#470050;
-    text-align: center;
-    text-decoration: none;
-}
-
-.textzap{
-    position: relative;
-    top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-     color:#470050;
-}
-
-.textgram{
-    position: relative;
-    top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.texttok{
-    position: relative;
-    top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.inzap{
-    position: relative;
-    height: 40px;
-    width: 40px;
-    z-index: 100;
-    left: 125px;
-    bottom: 35px;
+.quadro_card_experiencia{
+    height: 60%;
+    width: 50%;
+    background: rgba(0, 128, 0, 0);
     
-}
-
-.ingram{
-    position: relative;
-    height: 40px;
-    width: 40px;
-    z-index: 100;
-    left: 125px;
-    bottom: 35px;
-    
-}
-
-.intok{
-    position: relative;
-    height: 40px;
-    width: 40px;
-    z-index: 100;
-    left: 125px;
-    bottom: 35px;
-    
-}
-
-
-.whats:hover{
-    position: relative;
-   
-    right: 550px;
-}
-
-.instagram{
-  
-    top: 40px;
-    position: relative;
-    height: 40px;
-    width: 300px;
-    right: 760px;
-    border-top-right-radius: 20px;
-     border-bottom-right-radius: 20px;
-    background: linear-gradient(to
-     right, #840096 , #ff82ff);
-     transition: 2s;
-     color:#470050;
-    text-align: center;
-}
-
-.instagram:hover{
-   position: relative;
-   
-    right: 550px;
-}
-
-.tiktok{
-    position: relative;
-    height: 40px;
-    width: 300px;
-    right: 760px;
-    border-top-right-radius: 20px;
-     border-bottom-right-radius: 20px;
-    background: linear-gradient(to
-     right, #840096 , #ff82ff);
-     transition: 2s;
-     color:#470050;
-    text-align: center;
-    top: 80px;
-  
-}
-
-.tiktok:hover{
-    position: relative;
-   
-    right: 550px;
-}
-
-a{
-    text-decoration: none;
 }
 
 @media(max-width:768px){
+    .conteudo{
+        height: 50%;
+    }
 
+    .conteudo_2{
+        height: 50%;
+    }
 
+    h3{
+        margin-left: 8%;
+        font-size: 80%;
+    }
 
-body{
-  
+     h4{
+                font-size: 80%;
 
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    align-items: center;
-    background-attachment: fixed;
-}
+width: 100%;
+        margin-left: 8%;
+    }
 
+    .ft_eu{
+        
+        margin-right: 2%;
+        width: 30%;
+    }
 
-.bemvindo{
-    position: relative;
-    top: 30px;
-}
+    .card_experiencia p{
+        font-size: 50%;
+        margin: 0;
+    }
 
-.barra{
-      position: fixed;
-   top: 0;
-   left: 0;
-   width: 60vh;
-   height: 20px;
-   background: rgb(0, 0, 0);
-   color: white;
-   padding: 10px;
-   z-index: 1999;
-}
+    .projetos{
+        height: 40%;
+        font-size: 70%;
+    }
 
-.conteudo{
-     background-attachment: fixed;
-}
+    .ft_projetos{
+        height: 50%;
+    }
 
+ .projetos p{
+    margin-top: 0%;
+ }
 
-#navme{
-    position: relative;
-    left: -140px;
-    font-size: 12px;
-}
+ .nav_bar{
+    gap: 5%;
+ }
 
-#navmim{
-    position: relative;
-    left: -20px;
-    font-size: 12px;
-}
-
-#navpro{
-    position: relative;
-    left: 110px;
-    font-size: 12px;
-}
-
-#navcon{
-    position: relative;
-    left: 220px;
-    font-size: 12px;
-}
-
-.cube{
-    opacity: 0%;
-    display: none;
-}
-
-#nome{
-    position: relative;
-    right: 40px;
-}
-
-
- #ola{
-    position: relative;
-    left: 10px;
-    color: white;
-    z-index: 9;
-    font-size: 20px;
-}
-
-.redes{
-    position: relative;
-    left: 10px;
-    color: white;
-    z-index: 9;
-    font-size: 20px;
-}
-
-h2{
-    position: relative;
-     right: 40px;
-    color: white;
-}
-
-.sobrem{
-    position: relative;
-    left: 50px;
-}
-
-.card-frente{
-     position: relative;
-    right: 20px;
-  height: 140px;
-width: 280px;
-font-size: 13px;
-}
-
-.card-2{
-     position: relative;
-    left: -17px;
-    top: 290px;
-  height: 140px;
-width: 270px;
-font-size: 13px;
-}
-
-.card-2:hover{
+ .container_skill{
+    width: 50%;
+    height: 30%;
+ font-size: 70%;
    
+    
+ }
+
+ .skills{
+    width: 90%;
+    gap: 5%;
+    height: 70%;
+ }
+
+ .ft_skill{
+    width: 16%;
+    height: 19%;
+ }
+
+ .conteudo_contato{
+    width: 90%;
+    
+ }
+
  
-    top: 350px;
-  
-}
+ .conteudo_contato p{
+   top: 35%;
+    
+ }
 
-.gerenciador{
-       position: relative;
-  right: 10px;
-bottom: 160px;
- height: 150px;
-width: 150px;
-
-}
-
-.site1{
-    position: relative;
-    top: 120px;
-    right: 40px;
-}
-
-.site2{
-    position: relative;
-    top: 200px;
-    right: 360px;
-}
-
-.doom{
-       position: relative;
- left: 90px;
-  bottom: 10px;
-
-  height: 150px;
-width: 150px;
-
-}
-
-@keyframes flutuando{
-
-0%{
-    top: 80px;
-}
-
-50%{
-    top: 10px;
-}
-
-100%{
-    top: 80px;
-}
-
-}
-
-.conn{
-    position: relative;
-    left: 60px;
-}
-
-.whats{
-    position: relative;
-    right: 320px;
-    transition: 2s;
-}
-
-.whats:hover{
-  
-    right: 130px;
-}
-
-.instagram{
-    position: relative;
-    right: 320px;
-    transition: 2s;
-}
-
-.instagram:hover{
-  
-    right: 130px;
-}
-
-.tiktok{
-    position: relative;
-    right: 320px;
-    transition: 2s;
-}
-
-.tiktok:hover{
-  
-    right: 130px;
-}
-
+ .contatos{
+    gap: 12%;
+ }
 
 }
