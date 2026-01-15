@@ -22,6 +22,7 @@ html{
 
 .nav_bar a{
     text-decoration: none;
+    color: rgb(39, 0, 39)
 }
 
 .nav_bar p:hover{
