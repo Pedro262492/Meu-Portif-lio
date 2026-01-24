@@ -409,14 +409,20 @@ width: 100%;
         width: 30%;
     }
 
+    .quadro_card_experiencia{
+        height: 70%;
+        width: 80%;
+    }
+
     .card_experiencia p{
-        font-size: 50%;
+        font-size: 80%;
         margin: 0;
     }
 
     .card_experiencia{
-        height: 20%;
-        margin-top: 15%;
+        height: 30%;
+        width: 100%;
+        margin-top: 8%;
     }
 
     .card_experiencia span{
@@ -518,7 +524,7 @@ width: 100%;
 span a{
     background: rgba(85, 0, 124, 0.582);
     right: 2%;
-    color: rgba(0, 0, 0, 0.856);
+    color: rgba(183, 75, 255, 0.856);
 }
 
 .card_sobremim p{
