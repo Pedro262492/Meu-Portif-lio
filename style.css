@@ -413,7 +413,7 @@ width: 100%;
 
  .projetos p{
     margin-top: 0%;
-    font-size: 40%;
+    font-size: 60%;
  }
 
  span a{
@@ -435,7 +435,7 @@ width: 100%;
  .skills{
     width: 90%;
     gap: 5%;
-    height: 70%;
+    height: 60%;
  }
 
  .ft_skill{
@@ -457,5 +457,15 @@ width: 100%;
  .contatos{
     gap: 12%;
  }
+
+ #linguagens{
+    color: rgba(98, 0, 143, 0.582);
+    font-size: 50%;
+}
+
+span a{
+    background: rgba(85, 0, 124, 0.582);
+    right: 2%;
+}
 
 }
