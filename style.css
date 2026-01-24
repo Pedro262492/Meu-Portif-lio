@@ -19,6 +19,50 @@ html{
     z-index: 99;
 }
 
+.card_sobremim{
+    color: white;
+    font-family: monospace;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: rgba(135, 61, 255, 0);
+}
+
+.card_sobremim p{
+    width: 40%;
+    height: 40%;
+    margin: 0;
+    margin-right: 20%;
+    font-size: 100%;
+    background: rgba(0, 128, 0, 0);
+    border-bottom: 2px solid rgb(132, 0, 255);
+        border-top: 2px solid rgb(132, 0, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+padding: 1%;
+padding-left: 0%;
+padding-right: 0%;
+}
+
+.card_sobremim span{
+    color: rgb(132, 0, 255);
+}
+
+.ft_eu{
+    width: 20%;
+    height: 40%;
+    border-radius: 50%;
+    margin-right: 2%;
+    border: 2px solid rgb(132, 0, 255);
+    box-shadow: 0px 0px 20px rgba(136, 61, 255, 0.685);
+    animation: shadow 3s infinite reverse;
+    margin: 0;
+}
+
 
 .card_apresentacao a{
     position: relative;
@@ -47,11 +91,14 @@ html{
     filter: blur(10px);
 }
 
-.ft_eu{
-    width: 15%;
-    height: 25%;
-    border-radius: 50%;
-    margin-left: 15%;
+@keyframes shadow{
+    10%{
+        box-shadow: 0px 0px 10px rgba(135, 61, 255, 0.363);
+    }
+
+     100%{
+        box-shadow: 0px 0px 30px rgba(136, 61, 255, 0.685);
+    }
 }
 
 .nav_bar a{
@@ -372,6 +419,11 @@ width: 100%;
         margin-top: 15%;
     }
 
+    .card_experiencia span{
+        color:rgb(130, 39, 190);
+
+    }
+
     .projetos{
         height: 50%;
        
@@ -459,13 +511,44 @@ width: 100%;
  }
 
  #linguagens{
-    color: rgba(98, 0, 143, 0.582);
+    color: rgba(159, 0, 233, 0.582);
     font-size: 50%;
 }
 
 span a{
     background: rgba(85, 0, 124, 0.582);
     right: 2%;
+    color: rgba(0, 0, 0, 0.856);
+}
+
+.card_sobremim p{
+    position: relative;
+    font-size: 80%;
+    height: 40%;
+    padding: 5%;
+    padding-left: 0%;
+        padding-right: 0%;
+
+    width: 80%;
+    margin: 0;
+    margin-top: 10%;
+}
+
+.ft_eu{
+    position: relative;
+    margin: 0;
+    height:30%;
+    margin-top: 15%;
+    width: 50%;
+}
+
+.card_sobremim{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+background: rgba(0, 128, 0, 0);
 }
 
 }
