@@ -21,8 +21,7 @@ html{
 
 .card_sobremim{
     color: white;
-    font-family: monospace;
-    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -32,24 +31,28 @@ html{
 }
 
 .card_sobremim p{
-    width: 40%;
-    height: 40%;
-    margin: 0;
+    width: 50%;
+    height: 50%;
+    margin: 1%;
     margin-right: 20%;
     font-size: 100%;
-    background: rgba(0, 128, 0, 0);
-    border-bottom: 2px solid rgb(132, 0, 255);
-        border-top: 2px solid rgb(132, 0, 255);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-padding: 1%;
-padding-left: 0%;
-padding-right: 0%;
+    color: rgb(229, 202, 255);
+      
+padding: 2%;
+border: 2px solid rgb(132, 0, 255);
+border-top: none;
+border-right: none ;
+border-bottom-left-radius: 10px;
+padding-left: 1%;
+padding-right: 1%;
 }
 
-.card_sobremim span{
+.card_sobremim b{
     color: rgb(132, 0, 255);
+}
+
+#title_mim{
+    font-size: 30px;
 }
 
 .ft_eu{
@@ -59,9 +62,11 @@ padding-right: 0%;
     margin-right: 2%;
     border: 2px solid rgb(132, 0, 255);
     box-shadow: 0px 0px 20px rgba(136, 61, 255, 0.685);
-    animation: shadow 3s infinite reverse;
+    animation: shadow 3s infinite alternate;
     margin: 0;
 }
+
+
 
 
 .card_apresentacao a{
@@ -92,7 +97,7 @@ padding-right: 0%;
 }
 
 @keyframes shadow{
-    10%{
+    0%{
         box-shadow: 0px 0px 10px rgba(135, 61, 255, 0.363);
     }
 
@@ -128,7 +133,7 @@ padding-right: 0%;
 }
 
 .conteudo{
-    background: rgb(40, 17, 59);
+    background: linear-gradient( 180deg ,rgb(40, 17, 59),rgb(40, 17, 59), rgb(34, 15, 49) );
     position: relative;
     width: 100%;
     height: 100%;
@@ -164,6 +169,8 @@ padding-right: 0%;
   margin-top: 5%;
 }
 
+
+
 .card_apresentacao{
     background: rgba(0, 128, 0, 0);
     display: flex;
@@ -176,9 +183,11 @@ padding-right: 0%;
 
 h1{
         
-
-    color: white;
+    color: rgb(199, 138, 255);
     font-family:monospace;
+    z-index: 1;
+    margin: 3%;
+    font-size: 50px;
     
 }
 
@@ -186,10 +195,26 @@ h1{
 
 h2{
     color: white;
-    font-size: 100%;
+    font-size: 20px;
+        z-index: 1;
+margin: 0;
         font-family:monospace;
         text-align: center;
-   
+   animation: opacity 2s infinite alternate;
+}
+
+@keyframes opacity{
+    0%{
+        color: rgb(132, 0, 255);
+    }
+
+    50%{
+        color: rgb(130, 39, 190);
+    }
+
+    100%{
+        color: rgba(136, 61, 255, 0.685);
+    }
 }
 
 h3{
@@ -197,6 +222,8 @@ h3{
     font-size: 100%;
     margin: 0;
     font-family: monospace;
+        z-index: 1;
+
 }
 
 .nav_bar{
@@ -226,8 +253,9 @@ h3{
     position: relative;
     width: 60%;
     height: 75%;
-     background: rgba(34, 0, 34, 0.288);
-         border: 3px solid rgba(47, 0, 90, 0.623);
+   background: rgba(51, 0, 61, 0.329);
+    color: rgb(255, 255, 255);
+    border: 3px solid rgba(73, 0, 141, 0.678);
 
      margin: 1.5%;
        font-family: monospace;
@@ -251,7 +279,7 @@ opacity: 0%;
 }
 
 #linguagens{
-    color: rgba(91, 0, 133, 0.582);
+    color: rgba(73, 0, 141, 0.678);
 }
 
 .projetos p {
@@ -260,13 +288,27 @@ opacity: 0%;
 }
 
 .skills{
+    
     width: 100%;
     height: 100%;
       display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    flex-direction: column;
+}
+
+.linhaskill{
+    display: flex;
+    flex-direction: row;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+    height: 50%;
     gap: 8%;
+}
+
+.linhaskill2{
+    background: yellowgreen;
+    width: 100%;
+    height: 50%;
 }
 
 .ft_skill{
@@ -278,10 +320,10 @@ opacity: 0%;
 
 .container_skill{
     width: 18%;
-    height: 16%;
+    height: 35%;
     background: rgba(51, 0, 61, 0.219);
     color: rgb(255, 255, 255);
-    border: 3px solid rgba(28, 0, 54, 0.678);
+    border: 3px solid rgba(73, 0, 141, 0.678);
     font-family: monospace;
 }
 
@@ -295,25 +337,28 @@ opacity: 0%;
     position: absolute;
     top: 0;
     color: white;
-font-family: monospace;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 padding-top: 1%;
 font-size: 100%;
+letter-spacing: 1px;
 }
 
 .conteudo_2 h5{
     position: absolute;
     top: 0;
     color: white;
-font-family: monospace;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 padding-top: 1%;
 font-size: 100%;
+letter-spacing: 1px;
+
 }
 
 .conteudo_contato{
     width: 50%;
     
     height: 10%;
-    outline: 5px solid rgba(28, 0, 54, 0.678);
+    outline: 5px solid rgba(73, 0, 141, 0.678);
     border: 1px solid white;
       color: white;
       font-family: monospace;
@@ -351,8 +396,8 @@ font-size: 100%;
     height: 28%;
     width: 100%;
     background: rgba(51, 0, 61, 0.329);
-    color: rgb(255, 255, 255);
-    border: 3px solid rgba(28, 0, 54, 0.678);
+    color: rgb(229, 202, 255);
+    border: 3px solid rgba(73, 0, 141, 0.678);
     font-family: monospace;
 }
 
@@ -362,6 +407,8 @@ font-size: 100%;
 
 .card_experiencia span{
     color:rgb(73, 21, 107);
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .quadro_card_experiencia{
@@ -372,14 +419,15 @@ font-size: 100%;
 }
 
 span a{
-    color: rgb(26, 0, 26);
+    color: rgb(177, 60, 255);
    position: absolute;
    right: 5%;
-   background: rgba(66, 0, 66, 0.61);
+   background: rgba(73, 0, 141, 0.678);
    width: 12%;
    text-align: center;
    text-decoration: none;
    cursor: pointer;
+   border-radius: 5px;
 }
 
 @media(max-width:768px){
@@ -403,11 +451,7 @@ width: 100%;
         margin-left: 8%;
     }
 
-    .ft_eu{
-        
-        margin-right: 2%;
-        width: 30%;
-    }
+    
 
     .quadro_card_experiencia{
         height: 70%;
@@ -417,6 +461,7 @@ width: 100%;
     .card_experiencia p{
         font-size: 80%;
         margin: 0;
+        margin-left: 2%;
     }
 
     .card_experiencia{
@@ -475,26 +520,42 @@ width: 100%;
  }
 
  span a{
+    position: absolute;
+    bottom: 0;
+    
+    margin-bottom: 2%;
     width: 20%;
+    height: 12%;
+    font-size: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
 
  .nav_bar{
-    gap: 5%;
+    gap: 3%;
+ }
+
+ .nav_bar a{
+    color: rgba(141, 0, 207, 0.678);
  }
 
  .container_skill{
-    width: 50%;
-    height: 20%;
+    height: 25%;
+    width: 40%;
  font-size: 70%;
-   
-    
+   margin: 3%;
+    margin-top: 0;
+    margin-bottom: 0%;
  }
 
  .skills{
-    width: 90%;
-    gap: 5%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
  }
+
+.linhaskill{
+    height: 50%;
+    gap: 0;
+}
 
  .ft_skill{
     width: 16%;
@@ -530,14 +591,16 @@ span a{
 .card_sobremim p{
     position: relative;
     font-size: 80%;
-    height: 40%;
+    height: 50%;
     padding: 5%;
-    padding-left: 0%;
-        padding-right: 0%;
-
+    padding-left: 2%;
+        padding-right: 2%;
+font-size: 70%;
     width: 80%;
     margin: 0;
+    border-radius:0;
     margin-top: 10%;
+    border-left: none;
 }
 
 .ft_eu{
@@ -545,7 +608,7 @@ span a{
     margin: 0;
     height:30%;
     margin-top: 15%;
-    width: 50%;
+    width: 60%;
 }
 
 .card_sobremim{
@@ -555,6 +618,15 @@ span a{
     width: 100%;
     align-items: center;
 background: rgba(0, 128, 0, 0);
+}
+
+.card_sobremim p{
+    text-align:justify;
+}
+
+#title_mim{
+    text-align: center;
+    margin-left: 20%;
 }
 
 }
