@@ -451,6 +451,10 @@ width: 100%;
         margin-left: 8%;
     }
 
+    h1{
+        color: rgb(127, 49, 199);
+    }
+
     
 
     .quadro_card_experiencia{
@@ -539,10 +543,11 @@ width: 100%;
  }
 
  .container_skill{
-    height: 25%;
+    height: 50%;
     width: 40%;
  font-size: 70%;
-   margin: 3%;
+   margin: 2%;
+   padding: 2%;
     margin-top: 0;
     margin-bottom: 0%;
  }
@@ -550,12 +555,8 @@ width: 100%;
  .skills{
     width: 100%;
     height: 100%;
+    margin-top: 70%;
  }
-
-.linhaskill{
-    height: 50%;
-    gap: 0;
-}
 
  .ft_skill{
     width: 16%;
@@ -626,7 +627,11 @@ background: rgba(0, 128, 0, 0);
 
 #title_mim{
     text-align: center;
-    margin-left: 20%;
+}
+
+.linhaskill{
+    height: 25%;
+    gap: 0%;
 }
 
 }
