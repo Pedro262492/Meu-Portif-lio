@@ -483,7 +483,6 @@ width: 100%;
 
     .card_experiencia span{
         color:rgb(130, 39, 190);
-
     }
 
     .projetos{
@@ -533,7 +532,6 @@ width: 100%;
  span a{
     position: absolute;
     bottom: 0;
-    
     margin-bottom: 2%;
     width: 20%;
     height: 12%;
@@ -567,7 +565,7 @@ width: 100%;
 
  .ft_skill{
     width: 16%;
-    height: 19%;
+    height: 14%;
  }
 
  .conteudo_contato{
@@ -623,6 +621,7 @@ font-size: 70%;
     border-radius:0;
     margin-top: 10%;
     border-left: none;
+    padding: 0%;
 }
 
 .ft_eu{
