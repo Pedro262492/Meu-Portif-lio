@@ -35,6 +35,7 @@ html{
     transition: 1s;
 }
 
+
 .navbar a:hover{
      color: #606c6e;
 }
@@ -415,8 +416,8 @@ display: none;
     }
 
     .card{
-        min-width: 300px;
-        min-height: 300px;
+        min-width: 280px;
+        min-height: 220px;
         left: 25%;
     }
     .rodape{
